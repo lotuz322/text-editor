@@ -1,7 +1,7 @@
 import {EditorState, RichUtils} from 'draft-js'
 import {useState, useMemo, useCallback} from 'react'
-import {BlockType, InlineStyle} from "./config";
 import { useEditorHook } from './useEditor.model';
+import {BlockType, InlineStyle} from "../types";
 
 
 

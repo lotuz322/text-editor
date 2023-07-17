@@ -1,6 +1,5 @@
 import React from 'react';
-import './App.css';
-import { TextEditorProvider } from "./context/context";
+import { TextEditorProvider } from "./contexts/context";
 import TextEditor from './TextEditor';
 import ToolPanel from './ToolPanel';
 

@@ -2,4 +2,4 @@ export { default } from './TextEditor'
 
 export * from "./TextEditor";
 export * from "./useEditor";
-export * from "../context/context";
+export * from "../contexts/context";

@@ -1,11 +1,10 @@
-import {FC} from "react";
-import {useEditorApi} from "../context/context";
+import {useEditorApi} from "../contexts/context";
 import { Editor } from "draft-js";
 import cn from 'classnames'
-import {BLOCK_RENDER_MAP, CUSTOM_STYLE_MAP} from "./config";
-import {TextEditorComponent as TextEditor} from "./TextEditor.model";
+import { TextEditorComponent } from "./TextEditor.model";
+import {BLOCK_RENDER_MAP, CUSTOM_STYLE_MAP} from "./TextEditor.config";
 
-const TextEditor: TextEditor = ({ className }) => {
+const TextEditor: TextEditorComponent = ({ className }) => {
     const {state, onChange} = useEditorApi()
 
     return(
